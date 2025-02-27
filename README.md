@@ -1,50 +1,12 @@
-<p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-</p>
+Cloud-Based Domain Infrastructure Deployment with Azure
 
-<h1>Deploying Active Directory in Azure</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+In this project, I am designing and implementing a cloud-based Windows domain environment using Microsoft Azure. The objective is to set up a scalable and secure infrastructure that mirrors enterprise IT environments, leveraging key Microsoft technologies such as Active Directory, Remote Desktop, and PowerShell for efficient system management.
 
-<h2>Environments and Technologies Used</h2>
+The core of this setup consists of two Azure-based virtual machines:
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+  Domain Controller & DNS Server – This VM will handle authentication, domain services, and name resolution.
+  Client Workstation – A domain-joined computer for testing user authentication, permissions, and network policies.
 
-<h2>Operating Systems Used </h2>
+Once the infrastructure is in place, I will configure Active Directory users, groups, and organizational units, applying tailored permission structures to simulate real-world access control. Additionally, I will implement file sharing policies and privilege management, ensuring proper role-based access while maintaining security best practices.
 
-- Windows Server 2022
-- Windows 10 (21H2)
-
-<h2>High-Level Deployment and Configuration Steps</h2>
-
-- Create Resource Group
-- Create 2 Virtual Machines (1 will be running Windows Server 2022, and 1 will be running Windows 10). All Virtual Machines will be placed in our previously created Resource Group
-- Both Virtual Machines should be connected to the same Virtual Network (VNet)
-
-<h2>Deployment and Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+This project demonstrates hands-on experience with cloud-based networking, system administration, and identity management, reinforcing key concepts in enterprise IT environments while utilizing industry-standard tools and best practices.
