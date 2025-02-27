@@ -14,13 +14,7 @@ This project demonstrates hands-on experience with cloud-based networking, syste
 
 
 
-![Step3](https://github.com/user-attachments/assets/6a44cc6a-c1b0-479f-aee7-987665ce4707)
-![Step4](https://github.com/user-attachments/assets/18ea8066-ac12-4437-9148-09b0ea8f1209)
-![Step5](https://github.com/user-attachments/assets/5b142d40-92cd-4092-a65a-c5416261234a)
-![Step6](https://github.com/user-attachments/assets/48aace3e-17a1-43c3-b02b-c63bdd2e3aea)
-![Step7](https://github.com/user-attachments/assets/118c6d05-568e-459d-afb5-4f5d5cc6d133)
-![Step8](https://github.com/user-attachments/assets/4139a882-ef5c-4801-b969-c0201e2f9274)
-![Step9](https://github.com/user-attachments/assets/c59858de-1e61-4abc-9f88-7fa5e1e2f3c6)
+
 ![Step10](https://github.com/user-attachments/assets/ba5f0134-0ab9-46a6-bf68-0f7668bde8df)
 ![Step11](https://github.com/user-attachments/assets/6fb1f0b9-e349-4bd1-9ee1-e8985a6a1999)
 ![Step12](https://github.com/user-attachments/assets/4599112a-3c23-498d-83fb-c2aa1e3ccbef)
