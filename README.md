@@ -18,6 +18,26 @@ This project focuses on deploying and managing an Active Directory (AD) domain i
 
 This lab provides hands-on experience with Active Directory setup, domain management, user authentication, remote access configuration, and automation using PowerShell in a cloud-based environment.
 
+<h2>Prerequisites for Active Directory Deployment in Azure</h2>
+
+Before proceeding with the Active Directory setup and domain configuration, the following infrastructure must be in place:
+
+1. Azure Resource Setup
+   - A Resource Group created to organize all resources.
+   - A Virtual Network (VNet) and Subnet configured to allow communication between virtual machines.
+
+2. Virtual Machine Deployment
+   - DC (Windows Server 2022) created to act as the Domain Controller.
+   - Client (Windows 10 Pro) created to function as the domain workstation.
+   - Both VMs assigned to the same Virtual Network for connectivity.
+
+3.  Networking Configuration
+    - DC’s private IP address set to static to ensure consistent network communication.
+    - Client’s DNS settings updated to use DC’s private IP as the primary DNS server.
+    - Firewall disabled on DC (for testing purposes only) to allow proper communication.
+    - Connectivity verified between DC and Client using ping and PowerShell commands.
+
+
 <h2>Environments and Technologies Used</h2>
 
   - Microsoft Azure (Virtual Machines/Compute)
@@ -30,7 +50,6 @@ This lab provides hands-on experience with Active Directory setup, domain manage
 
 - Windows Server 2022
 - Windows 10 (21H2)
-
 
 <h2>Deployment and Configuration Steps</h2>
 
